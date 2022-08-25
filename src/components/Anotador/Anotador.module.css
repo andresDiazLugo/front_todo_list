@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 0 0 0;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    gap :1rem;
+    justify-content: center;
+    
+}
+.main form input{
+    height: 2rem;
+    width: 19rem;
+    border-radius: 10px;
+}
+.form button{
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: black;
+}
+@media (min-width: 480px){
+    .form {
+        display: flex;
+        flex-direction: initial;
+    }
+    
+}

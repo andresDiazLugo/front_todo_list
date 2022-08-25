@@ -1,0 +1,47 @@
+.ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem 0 1rem;
+
+}
+.ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 1rem 0 1rem 0;
+    gap: 3rem;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #9ef01a;
+}
+.ul li div{
+    display: flex;
+    gap: 5px;
+}
+.ul li div button{
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    /* animation-name: botones;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+}
+.ul li div button:hover {
+    background-color: black;
+}
+
+.section{
+    position: relative;
+}
+/* @keyframes botones{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotatey(180deg);
+    }
+} */

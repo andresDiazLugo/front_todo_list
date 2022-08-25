@@ -1,0 +1,19 @@
+@import "./normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body{
+  font-family: 'DynaPuff', cursive;;
+  background-color: #9cafb7;
+  position: relative;
+}
+:root {
+
+
+/*variables de css*/
+--color--inconoHome:#ff5400;
+--color--inconoTitle: #07beb8;
+--color--modal: #ecf8f8;
+--color--gris: #202020
+
+}
+

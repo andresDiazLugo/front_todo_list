@@ -1,0 +1,29 @@
+.footer{
+    background-color: var(--color--gris);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color: var(--color--inconoTitle);
+    bottom: 0;
+    position: fixed;
+
+}
+.footer h3{
+    text-align: center;
+}
+
+@media (min-width:480px ){
+    .footer{
+        background-color: var(--color--gris);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+        color: var(--color--inconoTitle);
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+}
+
